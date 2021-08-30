@@ -1,0 +1,106 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 4,
+            "value": "#Background:"
+          },
+          {
+            "line": 5,
+            "value": "# \tGiven User is on the Techfios test page"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 2566044800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.beforeRun()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Set SkyBlue Background",
+        "description": "",
+        "id": "set-skyblue-background;set-skyblue-background",
+        "after": [
+          {
+            "result": {
+              "duration": 660244600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 525871700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on the Techfios test page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_the_Techfios_test_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 43784100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on Skyblue button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_Skyblue_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 136689500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Background color will change to sky blue",
+            "match": {
+              "location": "LoginStepDefinition.background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@Scenario1"
+          }
+        ]
+      }
+    ],
+    "name": "Set SkyBlue Background",
+    "description": "",
+    "id": "set-skyblue-background",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/Questions.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@LoginFeature"
+      },
+      {
+        "line": 1,
+        "name": "@Regression"
+      }
+    ]
+  }
+]
